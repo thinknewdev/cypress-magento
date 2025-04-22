@@ -1,0 +1,26 @@
+{
+  "name": "magento_cypress",
+  "version": "1.0.0",
+  "description": "Cypress Test Suite for Magento 2",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "test:customer": "cypress run --spec 'cypress/e2e/customer/**'",
+    "test:catalog": "cypress run --spec 'cypress/e2e/catalog/**'",
+    "test:checkout": "cypress run --spec 'cypress/e2e/checkout/**'",
+    "test:admin": "cypress run --spec 'cypress/e2e/admin/**'"
+  },
+  "keywords": [
+    "magento",
+    "cypress",
+    "testing",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.0"
+  }
+}

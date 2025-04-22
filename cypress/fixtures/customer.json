@@ -1,0 +1,14 @@
+{
+  "firstName": "Cypress",
+  "lastName": "Test",
+  "email": "cypress.test@example.com",
+  "password": "Password123!",
+  "address": {
+    "street": "123 Test Street",
+    "city": "Test City",
+    "postcode": "12345",
+    "telephone": "1234567890",
+    "country": "US",
+    "region": "California"
+  }
+}
